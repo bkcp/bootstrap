@@ -24,20 +24,24 @@ nav {
 }
 
 .image_container {
-  /* width: 300px; */
-  /* height: 300px; */
-
-  /* max-width: 90%;
-  max-height: 90%; */
-  border: 1px solid rgb(160, 49, 49);
-  border-radius: 12%;
+  /*width: 300px;
+  *//*height: 300px;
+  *//*max-width: 90%;
+  max-height: 90%;
+  */border: 1px solid rgb(0, 0, 0);
+  border-radius: 6%;
   text-align: center;
   overflow: hidden;
-  /* display: flex;
+  /*display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden; */
+  overflow: hidden;
+  */:;
+  -webkit-border-radius: 6%;
+  -moz-border-radius: 6%;
+  -ms-border-radius: 6%;
+  -o-border-radius: 6%;
 }
 .sketch {
   width: 100%;
@@ -62,7 +66,6 @@ figcaption {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: lightest;
   text-align: center;
-  background-color: rgb(248, 231, 231);
 }
 audio {
   margin-top: 5px;
