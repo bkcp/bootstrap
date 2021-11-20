@@ -5,7 +5,7 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-
+  padding-top: 30px;
   background-color: black;
   /* width: 100%; */
 }
@@ -34,6 +34,7 @@ nav {
 
   text-align: center;
 }
+
 .image_container {
   /*width: 300px;
   max-width: 50%;
