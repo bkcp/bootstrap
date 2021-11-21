@@ -1,12 +1,16 @@
 body {
   margin: 0;
+  background-image: url(images/bg_redstripe.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
 }
 
 nav {
   display: flex;
   flex-direction: row;
   padding-top: 30px;
-  background-color: black;
+  /* background-color: black; */
   /* width: 100%; */
 }
 
@@ -25,7 +29,8 @@ nav {
   align-items: center; */
   color: white;
   font-size: 1rem;
-  background-color: black;
+  /* 
+   */
   position: static;
 }
 .container.full {
@@ -36,11 +41,12 @@ nav {
 }
 
 .image_container {
-  /*width: 300px;
-  max-width: 50%;
-  max-height: 50%;
-  */
+  /*width: 300px;*/
+  /* max-width: 50%;
+  max-height: 50%; */
+
   height: 100%;
+  width: 100%;
 
   position: relative;
   border: 1px solid rgb(0, 0, 0);
@@ -60,6 +66,10 @@ nav {
   -o-border-radius: ;
   -webkit-border-radius: ;
 }
+/* iframe {
+  width: 100%;
+  height: 100%;
+} */
 .sketch {
   width: 100%;
   height: 100%;
@@ -111,7 +121,6 @@ footer {
 
   text-align: center;
   color: white;
-  background-color: black;
 }
 /* 
 @media (min-width: 700px) {
