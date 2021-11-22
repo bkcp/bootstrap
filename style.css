@@ -71,6 +71,7 @@ nav {
 iframe {
   /* width: 100%;
   min-height: 536px; */
+  width: device-width;
 }
 .sketch {
   width: 100%;
